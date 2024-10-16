@@ -146,3 +146,75 @@ Operator	 Name
 ~            One's complement operator (unary operator)
 <<           Left shift operator
 >>           Right shift operator
+
+## Decision making statements
+# if Statement
+# if-else Statement
+# Nested if Statement
+# if-else-if Ladder
+# switch Statement
+# Conditional Operator
+# Jump Statements: 
+-> break
+-> continue
+-> goto
+-> return
+
+## Loops / Iteration
+-> Entry Controlled loops: In Entry controlled loops the test condition is checked 
+before entering the main body of the loop. For Loop and While Loop is Entry-controlled loops.
+
+-> Exit Controlled loops: In Exit controlled loops the test condition is evaluated at the 
+end of the loop body. The loop body will execute at least once, irrespective of whether 
+the condition is true or false. do-while Loop is Exit Controlled loop.
+
+## Functions
+-> A function in C is a set of statements that when called perform some specific tasks. 
+It is the basic building block of a C program that provides modularity and code reusability. 
+The programming statements of a function are enclosed within { } braces, having certain 
+meanings and performing certain operations. They are also called subroutines or procedures 
+in other languages.
+
+# Syntax of Functions 
+-> The syntax of function can be divided into 3 aspects:
+-> Function Declaration
+-> Function Definition
+-> Function Calls
+
+# Function Declarations
+# Function Definition
+# Function Call
+
+# Function Return Type
+# Conditions of Return Types and Arguments
+-> In C programming language, functions can be called either with or without arguments and 
+might return values. They may or might not return values to the calling functions.
+
+-> Function with no arguments and no return value
+-> Function with no arguments and with return value
+-> Function with argument and with no return value
+-> Function with arguments and with return value 
+
+# Types of Functions
+-> There are two types of functions in C:
+-> Library Functions
+-> User Defined Functions
+
+# Function Arguments and parameters
+-> We can pass arguments to the C function in two ways:
+-> Pass by Value
+-> Pass by Reference
+
+# Advantages of Functions
+-> Functions in C is a highly useful feature of C with many advantages as mentioned below:
+-> The function can reduce the repetition of the same statements in the program.
+-> The function makes code readable by providing modularity to our program.
+-> There is no fixed number of calling functions it can be called as many times as you want.
+-> The function reduces the size of the program.
+-> Once the function is declared you can just use it without thinking about the internal 
+working of the function.
+
+# Disadvantages of Functions
+-> The following are the major disadvantages of functions in C:
+-> Cannot return multiple values.
+-> Memory and time overhead due to stack frame allocation and transfer of program control.
