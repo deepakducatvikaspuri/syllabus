@@ -60,6 +60,8 @@ in programming, acting as dynamic containers for data in the C++ programming lan
 A variable is more than just a memory label. It serves as a link between abstract ideas 
 and concrete data storage, allowing programmers to deftly manipulate data.
 
+## Input and output
+
 # Rules and Naming: 
 -> Variable names must begin with a letter or an underscore, 
 avoid reserved keywords, and be composed of letters, numbers, 
@@ -301,3 +303,49 @@ fine but may produce unexpected output when run.
 Unlike a linked list, an array in C is not dynamic.
 -> Insertion and deletion of elements can be costly since the elements are needed to be 
 rearranged after insertion and deletion.
+
+## Strings 
+-> A String in C programming is a sequence of characters terminated with a null character ‘\0’. 
+The C String is stored as an array of characters. The difference between a character array and 
+a C string is that the string in C is terminated with a unique character ‘\0’.
+
+# String Declaration Syntax
+-> char string_name[size];
+
+# String Initialization
+-> Assigning a String Literal without Size
+char str[] = "ducat";
+
+-> Assigning a String Literal with a Predefined Size
+char str[50] = "ducat";
+
+-> Assigning Character by Character with Size
+char str[14] = { 'd','u','c','a','t','\0'};
+
+-> Assigning Character by Character without Size
+char str[] = { 'd','u','c','a','t','\0'};
+
+#  Read a String Separated by Whitespaces
+-> We can use multiple methods to read a string separated by spaces in C. The two of the 
+common ones are:
+
+* We can use the fgets() function to read a line of string and gets() to read characters from 
+the standard input  (stdin) and store them as a C string until a newline character or the 
+End-of-file (EOF) is reached.
+* We can also scanset characters inside the scanf() function
+
+# Standard C Library – String.h  Functions
+
+# Function Name	             Description
+strlen(string_name)	         Returns the length of string name.
+strcpy(s1, s2)	             Copies the contents of string s2 to string s1.
+strcmp(str1, str2)	         Compares the first string with the second string. If strings are the same it returns 0.
+strcat(s1, s2)	             Concat s1 string with s2 string and the result is stored in the first string.
+strlwr()	                 Converts string to lowercase.
+strupr()	                 Converts string to uppercase.
+strstr(s1, s2)	             Find the first occurrence of s2 in s1.
+
+# puts() vs printf() to print a string
+# Swap strings in C
+# Storage for strings in C
+# gets() is risky to use!
