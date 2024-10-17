@@ -218,3 +218,86 @@ working of the function.
 -> The following are the major disadvantages of functions in C:
 -> Cannot return multiple values.
 -> Memory and time overhead due to stack frame allocation and transfer of program control.
+
+## Arrays
+-> An array in C is a fixed-size collection of similar data items stored in contiguous 
+memory locations. It can be used to store the collection of primitive data types such as 
+int, char, float, etc.
+
+# Syntax of Array Declaration
+-> data_type array_name [size];
+-> data_type array_name [size1] [size2]...[sizeN];
+
+# Array Initialization
+-> Initialization in C is the process to assign some initial value to the variable. 
+
+# Array Initialization with Declaration
+-> data_type array_name [size] = {value1, value2, ... valueN};
+
+# Array Initialization with Declaration without Size
+-> data_type array_name [] = {value1, value2, ... valueN};
+
+# Array Initialization after Declaration (Using Loops)
+-> for (int i = 0; i < N; i++) {
+    array_name[i] = valuei;
+}
+
+# Access Array Elements
+-> array_name [index];
+
+# Update Array Element
+-> array_name[i] = new_value;
+
+# Types of Array in C
+-> One Dimensional Arrays (1D Array)
+-> Multidimensional Arrays
+
+# One Dimensional Array
+-> Syntax of 1D Array
+-> array_name [size];
+
+# Multidimensional Array
+-> Syntax of 2D Array
+-> array_name[size1] [size2];
+
+# Properties of Arrays
+# Fixed Size
+-> The array in C is a fixed-size collection of elements. The size of the array must be 
+known at the compile time and it cannot be changed once it is declared.
+
+# Homogeneous Collection
+-> We can only store one type of element in an array. There is no restriction on the number of 
+elements but the type of all of these elements must be the same.
+
+# Indexing in Array
+-> The array index always starts with 0 in C language. It means that the index of the first 
+element of the array will be 0 and the last element will be N – 1.
+
+# Dimensions of an Array
+-> A dimension of an array is the number of indexes required to refer to an element in 
+the array. It is the number of directions in which you can grow the array size.
+
+# Contiguous Storage
+-> All the elements in the array are stored continuously one after another in the memory. 
+It is one of the defining properties of the array in C which is also the reason why random access is possible in the array.
+
+# Random Access
+-> The array in C provides random access to its element i.e we can get to a random element at 
+any index of the array in constant time complexity just by using its index number.
+
+#  No Index Out of Bounds Checking
+-> There is no index out-of-bounds checking in C/C++, for example, the following program compiles 
+fine but may produce unexpected output when run.  
+
+# Advantages of Array
+-> The following are the main advantages of an array:
+-> Random and fast access of elements using the array index.
+-> Use of fewer lines of code as it creates a single array of multiple elements.
+-> Traversal through the array becomes easy using a single loop.
+-> Sorting becomes easy as it can be accomplished by writing fewer lines of code.
+
+# Disadvantages of Array
+-> Allows a fixed number of elements to be entered which is decided at the time of declaration. 
+Unlike a linked list, an array in C is not dynamic.
+-> Insertion and deletion of elements can be costly since the elements are needed to be 
+rearranged after insertion and deletion.
