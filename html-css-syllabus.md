@@ -269,6 +269,7 @@
 - The CSS element Selector
 - The CSS id Selector
 - The CSS class Selector
+- The CSS Attribute Selector
 - The CSS Universal Selector
 - The CSS Grouping Selector
 

@@ -49,6 +49,28 @@
 # Lifecycle Hooks and Template Access
 # Getting Access to ng-content with @ContentChild
 
+## Using Pipes to Transform Output
+# Introduction & Why Pipes are Useful
+# Using Pipes
+# Parametrizing Pipes
+# Chaining Multiple Pipes
+# Creating a Custom Pipe
+# Parametrizing a Custom Pipe
+# Example: Creating a Filter Pipe
+# Pure and Impure Pipes (or: How to "fix" the Filter Pipe)
+# Understanding the "async" Pipe
+
+## Understanding Observables
+# Module Introduction
+# Install RxJS
+# Analyzing Angular Observables
+# Getting Closer to the Core of Observables
+# Building a Custom Observable
+# Errors & Completion
+# Observables & You!
+# Understanding Operators
+# Subjects
+
 ## Using Services & Dependency Injection
 # Module Introduction
 # Why would you Need Services?
@@ -92,16 +114,6 @@
 # Resolving Dynamic Data with the resolve Guard
 # Understanding Location Strategies
 
-## Understanding Observables
-# Module Introduction
-# Install RxJS
-# Analyzing Angular Observables
-# Getting Closer to the Core of Observables
-# Building a Custom Observable
-# Errors & Completion
-# Observables & You!
-# Understanding Operators
-# Subjects
 
 ## Handling Forms in Angular Apps
 # Module Introduction
@@ -139,17 +151,7 @@
 # Reactive: Reacting to Status or Value Changes
 # Reactive: Setting and Patching Values
 
-## Using Pipes to Transform Output
-# Introduction & Why Pipes are Useful
-# Using Pipes
-# Parametrizing Pipes
-# Where to learn more about Pipes
-# Chaining Multiple Pipes
-# Creating a Custom Pipe
-# Parametrizing a Custom Pipe
-# Example: Creating a Filter Pipe
-# Pure and Impure Pipes (or: How to "fix" the Filter Pipe)
-# Understanding the "async" Pipe
+
 
 ## Making Http Requests
 # Module Introduction

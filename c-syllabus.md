@@ -49,10 +49,15 @@ ISO/IEC 9899:2018.
 #  What is operating System
 
 ## Program Development 
-#  Programming Paradigms/ Methodologies (monolithic| procedural/Moduler | Modular | object oriented)
+#  Programming Paradigms/ Methodologies 
+# (monolithic| procedural/Moduler | Modular | object oriented)
+
 #  What is algorithms (algorithm| psuedo code | program)
+
 #  What is flow Chart
-#  Steps for program development and execution(Editing| Compiling| Linking Library | Loading | Execution)
+
+#  Steps for program development and execution
+#  (Editing| Compiling| Linking Library | Loading | Execution)
 
 ## Variables
 -> Variables are the fundamental building blocks of data manipulation and storage 
@@ -60,12 +65,12 @@ in programming, acting as dynamic containers for data in the C++ programming lan
 A variable is more than just a memory label. It serves as a link between abstract ideas 
 and concrete data storage, allowing programmers to deftly manipulate data.
 
-## Input and output
-
 # Rules and Naming: 
 -> Variable names must begin with a letter or an underscore, 
 avoid reserved keywords, and be composed of letters, numbers, 
 and underscores and $ (doller).
+
+## Input and output
 
 ## Data Types
 

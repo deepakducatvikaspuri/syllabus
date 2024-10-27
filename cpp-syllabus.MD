@@ -154,7 +154,6 @@ Operator	 Name
 <<           Left shift operator
 >>           Right shift operator
 
-
 ## Decision making statements
 # if Statement
 # if-else Statement
@@ -166,6 +165,7 @@ Operator	 Name
 -> break
 -> continue
 -> goto
+-> label
 -> return
 
 ## Loops / Iteration
