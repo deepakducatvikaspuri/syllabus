@@ -61,7 +61,7 @@ ISO/IEC 9899:2018.
 
 ## Variables
 -> Variables are the fundamental building blocks of data manipulation and storage 
-in programming, acting as dynamic containers for data in the C++ programming language. 
+in programming, acting as dynamic containers for data in the C programming language. 
 A variable is more than just a memory label. It serves as a link between abstract ideas 
 and concrete data storage, allowing programmers to deftly manipulate data.
 
@@ -104,7 +104,7 @@ float                   4 byte
 double                  8 byte
 long double             10 byte
 
-## C++ divides the operators into the following groups:
+## C divides the operators into the following groups:
 
 # Arithmetic operators
 Operator	Name	         Description	                           Example	
@@ -124,11 +124,6 @@ Operator	Example	        Same As
 *=	        x *= 3	        x = x * 3	
 /=	        x /= 3	        x = x / 3	
 %=	        x %= 3	        x = x % 3	
-&=	        x &= 3	        x = x & 3	
-|=	        x |= 3	        x = x | 3	
-^=	        x ^= 3	        x = x ^ 3	
->>=	x       >>= 3	        x = x >> 3	
-<<=	x       <<= 3	        x = x << 3
 
 # Comparison operators
 Operator	Name	                     Example

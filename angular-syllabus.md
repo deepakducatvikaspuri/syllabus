@@ -68,8 +68,19 @@
 # Building a Custom Observable
 # Errors & Completion
 # Observables & You!
-# Understanding Operators
+# Understanding Operators  
 # Subjects
+
+## Enhancing Elements with Directives - Deep Dive
+# Module Introduction
+# Understanding Directives
+# Analyzing a build in attributes : ngModel
+# Analyzing a build in attributes : ngIf
+# Getting start with custom directive
+# Directives and dependency injection
+# Building another directives
+# Building a custom structural directive
+# host directives and composition
 
 ## Using Services & Dependency Injection
 # Module Introduction
@@ -81,6 +92,33 @@
 # How many Instances of Service Should It Be?
 # Injecting Services into Services
 # Using Services for Cross-Component Communication
+
+## Making Http Requests
+# Module Introduction
+# How Does Angular Interact With Backends?
+# The Anatomy of a Http Request
+# Backend (Firebase) Setup
+# Sending a POST Request
+# GETting Data
+# Using RxJS Operators to Transform Response Data
+# Using Types with the HttpClient
+# Outputting Posts
+# Showing a Loading Indicator
+# Using a Service for Http Requests
+# Services & Components Working Together
+# Sending a DELETE Request
+# Handling Errors
+# Using Subjects for Error Handling
+# Using the catchError Operator
+# Error Handling & UX
+# Setting Headers
+# Adding Query Params
+# Observing Different Types of Responses
+# Changing the Response Body Type
+# Introducing Interceptors
+# Manipulating Request Objects
+# Response Interceptors
+# Multiple Interceptors
 
 ## Changing Pages with Routing
 # Module Introduction
@@ -113,7 +151,6 @@
 # Passing Static Data to a Route
 # Resolving Dynamic Data with the resolve Guard
 # Understanding Location Strategies
-
 
 ## Handling Forms in Angular Apps
 # Module Introduction
@@ -150,35 +187,6 @@
 # Reactive: Creating a Custom Async Validator
 # Reactive: Reacting to Status or Value Changes
 # Reactive: Setting and Patching Values
-
-
-
-## Making Http Requests
-# Module Introduction
-# How Does Angular Interact With Backends?
-# The Anatomy of a Http Request
-# Backend (Firebase) Setup
-# Sending a POST Request
-# GETting Data
-# Using RxJS Operators to Transform Response Data
-# Using Types with the HttpClient
-# Outputting Posts
-# Showing a Loading Indicator
-# Using a Service for Http Requests
-# Services & Components Working Together
-# Sending a DELETE Request
-# Handling Errors
-# Using Subjects for Error Handling
-# Using the catchError Operator
-# Error Handling & UX
-# Setting Headers
-# Adding Query Params
-# Observing Different Types of Responses
-# Changing the Response Body Type
-# Introducing Interceptors
-# Manipulating Request Objects
-# Response Interceptors
-# Multiple Interceptors
 
 ## Authentication & Route Protection in Angular
 # Module Introduction

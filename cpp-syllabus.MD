@@ -1,32 +1,47 @@
 ### CPP Syllabus
 
 ## History
--> C++ is a programming language that was developed by Danish computer scientist Bjarne Stroustrup at AT&T Bell Labs in the 1980s.
+-> C++ is a programming language that was developed by Danish computer 
+scientist Bjarne Stroustrup at AT&T Bell Labs in the 1980s.
 
 # Origins
--> Stroustrup was inspired by the Simula programming language's concurrency features and program organization while working on his Ph.D. at Cambridge University. He also analyzed the UNIX kernel to see how it could be distributed over a network. 
+-> Stroustrup was inspired by the Simula programming language's concurrency 
+features and program organization while working on his Ph.D. at Cambridge 
+University. He also analyzed the UNIX kernel to see how it could be 
+distributed over a network. 
 
 # Initial version
--> The original version of C++ was called "C with Classes". It was released in 1985 as an extension of the C programming language. 
+-> The original version of C++ was called "C with Classes". It was released 
+in 1985 as an extension of the C programming language. 
 
 # Standardization
--> The American National Standards Institute (ANSI) and the International Standards Organization (ISO) developed the first ISO standard for C++ in 1998. 
+-> The American National Standards Institute (ANSI) and the 
+International Standards Organization (ISO) developed the first ISO 
+standard for C++ in 1998. 
 
 # Subsequent versions
--> C++ has evolved through many updates and standardizations, including C++ 2.0 in 1989, C++03 in 2003, C++11 in 2011, C++14 in 2014, and C++17 in 2017. 
+-> C++ has evolved through many updates and standardizations, 
+including C++ 2.0 in 1989, C++03 in 2003, C++11 in 2011, C++14 in 2014, 
+and C++17 in 2017. 
 
 # Features
--> C++ is a high-level language that combines procedural and object-oriented programming. It's used for a variety of applications, including desktop applications, video games, servers, and performance-critical applications.
+-> C++ is a high-level language that combines procedural and 
+object-oriented programming. It's used for a variety of applications, 
+including desktop applications, video games, servers, and 
+performance-critical applications.
 
 # Object-oriented programming: 
--> C++ is an object-oriented programming language that focuses on objects and working with them. It offers classes, which provide abstraction, encapsulation, inheritance, and 
-polymorphism. 
+-> C++ is an object-oriented programming language that focuses on objects 
+and working with them. It offers classes, which provide abstraction, 
+encapsulation, inheritance, and polymorphism. 
 
 # Library: 
--> C++ has a rich library of in-built functions that makes programming quick and straightforward. 
+-> C++ has a rich library of in-built functions that makes programming 
+quick and straightforward. 
 
 # Data abstraction: 
--> Helps prevent the end user from becoming overwhelmed with unnecessary information. 
+-> Helps prevent the end user from becoming overwhelmed with unnecessary 
+information. 
 Inheritance: Ensures the reliability of the code and reduces redundancy. 
 
 # Pointers: 
@@ -39,13 +54,16 @@ Inheritance: Ensures the reliability of the code and reduces redundancy.
 -> C++ is interoperable with other programming languages such as C. 
 
 # Flexibility: 
--> C++ supports procedural and functional programming, and is flexible enough to run on several different platforms. 
+-> C++ supports procedural and functional programming, and is flexible 
+enough to run on several different platforms. 
 
 # Performance: 
--> C++'s low-level memory manipulation and direct access to hardware make it suitable for resource-intensive applications. 
+-> C++'s low-level memory manipulation and direct access to hardware 
+make it suitable for resource-intensive applications. 
 
 # Control: 
--> C++ offers low-level control over system resources, which enables developers to fine-tune their programs for optimal performance
+-> C++ offers low-level control over system resources, which enables 
+developers to fine-tune their programs for optimal performance
 
 ## Fundamentals
 #  How computer works
@@ -174,7 +192,7 @@ before entering the main body of the loop. For Loop and While Loop is Entry-cont
 
 -> Exit Controlled loops: In Exit controlled loops the test condition is evaluated at the 
 end of the loop body. The loop body will execute at least once, irrespective of whether 
-the condition is true or false. do-while Loop is Exit Controlled loop.
+the condition is true or false. do-while Loop is Exit Controlled loop. 
 
 ## Functions
 -> A function in C++ is a set of statements that when called perform some specific tasks. 
@@ -211,7 +229,7 @@ might return values. They may or might not return values to the calling function
 # Function Arguments and parameters
 -> We can pass arguments to the C++ function in two ways:
 -> Pass by Value
--> Pass by Reference
+-> Pass by Reference   
 
 # Advantages of Functions
 -> Functions in C++ is a highly useful feature of C++ with many advantages as mentioned below:
@@ -227,3 +245,54 @@ working of the function.
 -> Cannot return multiple values.
 -> Memory and time overhead due to stack frame allocation and transfer of program control.
 
+## Pointers 
+-> Pointers are symbolic representations of addresses. They enable programs to simulate 
+call-by-reference as well as to create and manipulate dynamic data structures. Iterating over 
+elements in arrays or other data structures is one of the main use of pointers. 
+
+-> The address of the variable you’re working with is assigned to the pointer variable that 
+points to the same data type (such as an int or string).
+
+# How to use a pointer?
+-> Define a pointer variable
+-> Assigning the address of a variable to a pointer using the unary operator (&) which returns 
+the address of that variable.
+-> Accessing the value stored in the address using unary operator (*) which returns the value 
+of the variable located at the address specified by its operand.
+
+# Pointer Expressions and Pointer Arithmetic
+-> A limited set of arithmetic operations can be performed on pointers which are:
+-> incremented ( ++ )
+-> decremented ( — )
+-> an integer may be added to a pointer ( + or += )
+-> an integer may be subtracted from a pointer ( – or -= )
+-> difference between two pointers (p1-p2)
+
+# Pointers to pointers
+-> In C++, we can create a pointer to a pointer that in turn may point to data or 
+another pointer. The syntax simply requires the unary operator (*) for each level of 
+indirection while declaring the pointer.
+
+# Void Pointers
+-> This is a special type of pointer available in C++ which represents the absence of type. 
+Void pointers are pointers that point to a value that has no type (and thus also an 
+undetermined length and undetermined dereferencing properties). This means that void pointers 
+have great flexibility as they can point to any data type. There is a payoff for this 
+flexibility. These pointers cannot be directly dereferenced. They have to be first transformed 
+into some other pointer type that points to a concrete data type before being dereferenced. 
+
+# Invalid pointers
+-> A pointer should point to a valid address but not necessarily to valid elements 
+(like for arrays). These are called invalid pointers. Uninitialized pointers are also 
+invalid pointers.
+
+# NULL Pointers
+-> A null pointer is a pointer that point nowhere and not just an invalid address. 
+Following are 2 methods to assign a pointer as NULL;
+
+# Advantages of Pointers 
+-> Pointers reduce the code and improve performance. They are used to retrieve strings, 
+trees, arrays, structures, and functions.
+-> Pointers allow us to return multiple values from functions.
+-> In addition to this, pointers allow us to access a memory location in the computer’s 
+memory.

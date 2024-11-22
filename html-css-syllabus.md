@@ -308,7 +308,7 @@
 - margin-bottom
 - margin-left
 - values ( auto /length / % / inherit )
-- margin (shorthand)
+- margin (shorthand) 
 
 # CSS Padding
 - padding-top
